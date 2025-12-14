@@ -53,7 +53,20 @@ Click anywhere to pause/resume.
 | Deep Crab  | 0.886       | 0.382-0.886 | 2.0-3.618   | 1.618       |
 | Cypher     | 0.382-0.618 | 1.13-1.41   | 1.27-2.00   | 0.786       |
 
-These are standard stuff
+These are standard patterns.
+
+One thing to note, from analyze.py, is that when SPY is analyzed, harmonics generate these results:
+
+Avg return by hold period (%)
+Direction    |      3d |      6d |      9d |     12d |     15d
+------------------------------------------------------------
+Bullish      |   0.34% |   0.73% |   1.25% |   1.46% |   1.97% |
+Bearish      |   0.29% |  -0.28% |  -0.67% |  -1.12% |  -1.14% |
+
+So basically, every time harmonics pattern is visible and it's bullish and you buy, then you will get on average 2% in 2 weeks. 
+
+But if you short bearish patterns, then you're losing, so it probably reflects the fact that SPY is always rising.
+
 
 ## Backtest
 
